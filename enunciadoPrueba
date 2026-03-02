@@ -117,3 +117,8 @@ es un dump plano).
 • Calidad del backend: Código organizado, uso de variables de entorno (.env),
 códigos de estado HTTP correctos.
 • Consultas: Responden con exactitud a las preguntas de negocio planteadas
+
+
+DOCKER UTILIZADO:
+docker run --name postgres -p5434:5432 -e POSTGRES_PASSWORD=password -d postgres
+
